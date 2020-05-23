@@ -63,11 +63,9 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-							<img src="img/node2faas-logo-big.png" />
+							<img src="img/node2faas-logo-big.png" width="50%"/>
 	                        <!--<h1 class="hero-title mt-0 is-revealing">Node2FaaS Framework</h1>-->
-	                        <p class="hero-paragraph is-revealing">A node.js conversor for Function-as-a-Service based appplications using a RPC approach.
-								<a href="https://github.com/node2faas/framework" target="_blank"><img src="img/git-logo.png" style="width: 7%;" /></a>
-							</p>
+	                        <p><a href="index.html" target="_blank">< Voltar</a></Voltar></p>
 							<!--<div class="hero-form field field-grouped is-revealing">
 	                            <div class="control control-expanded">
 	                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
@@ -365,109 +363,66 @@
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 class="feature-title m-0">Requisites</h4>
+		                                <h4 class="feature-title m-0">How to get Azure Credentials Parameters</h4>
 									</div>
-	                                <p class="text-sm mb-0">
-										To use this framework you need to have an active account in at least one of these providers and obtain its credentials parameters:
+
+										<h6 id="howTO">Create application in Azure Active Directory</h6>
 										<ul>
-											<li>
-												<h6>Amazon Web Services</h6>
-												<p class="text-sm mb-0">Parameters needed:</p>
-												<ul>
-													<li><p class="text-sm mb-0">access_key_id</p></li>
-													<li><p class="text-sm mb-0">secret_access_key</p></li>
-												</ul>
-											</li>
-												
-											<li>
-												<h6>Google Cloud Platform</h6>
-												<p class="text-sm mb-0">Parameters needed (in a json file):</p>
-												<ul>
-													<li><p class="text-sm mb-0">client_x509_cert_url</p></li>
-													<li><p class="text-sm mb-0">client_email</p></li>
-													<li><p class="text-sm mb-0">client_id</p></li>
-													<li><p class="text-sm mb-0">project_id</p></li>
-													<li><p class="text-sm mb-0">private_key_id</p></li>
-													<li><p class="text-sm mb-0">zone</p></li>
-												</ul>
-											</li>
-											<li>
-												<h6>Microsoft Azure</h6>
-												<p class="text-sm mb-0">Parameters needed <a href="how-get-to-azure-parameters.html#howTo">[how-to-get]</a>:</p>
-												<ul>
-													<li><p class="text-sm mb-0">subscription_id</p></li>
-													<li><p class="text-sm mb-0">azure_tenant_id</p></li>
-													<li><p class="text-sm mb-0">azure_client_id</p></li>
-													<li><p class="text-sm mb-0">azure_client_secret</p></li>
-												</ul>
-											</li>
+											<li><p class="text-sm mb-0">Login into your azure account</p></li>
+											<li><p class="text-sm mb-0">Select Azure Active directory in the left sidebar</p></li>
+											<li><p class="text-sm mb-0">Click on App registrations</p></li>
+											<li><p class="text-sm mb-0">Click + Add</p></li>
+											<li><p class="text-sm mb-0">Enter the application name, select application type(web app/api) and sign-on-url</p></li>
+											<li><p class="text-sm mb-0">Click on create button</p></li>
 										</ul>
-									</p>
-									<p class="text-sm mb-0">A node.js application will be prompted, some examples could be found <a href="https://github.com/leonardoreboucas/node2faas/tree/master/examples" target="_blank">here</a>.</p>
-	                            </div>
-	                        </div>
-							<div class="feature">
-	                            <div class="feature-inner">
-									<div class="feature-header mb-16">
-										<div class="feature-icon mr-16">
-											<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-											    <g fill-rule="nonzero" fill="none">
-											        <path d="M4 12H0V5a5.006 5.006 0 0 1 5-5h7v4H5a1 1 0 0 0-1 1v7z" fill="#43F1FF"/>
-											        <path d="M32 12h-4V5a1 1 0 0 0-1-1h-7V0h7a5.006 5.006 0 0 1 5 5v7zM12 32H5a5.006 5.006 0 0 1-5-5v-7h4v7a1 1 0 0 0 1 1h7v4z" fill="#4353FF"/>
-											        <path d="M27 32h-7v-4h7a1 1 0 0 0 1-1v-7h4v7a5.006 5.006 0 0 1-5 5z" fill="#43F1FF"/>
-											    </g>
-											</svg>
-		                                </div>
-		                                <h4 class="feature-title m-0">Instalation</h4>
-									</div>
-									<h6>Using NPM</h6>
-									<p class="text-sm mb-0 command">npm install node2faas</p>
-									<h6>Using GitHub</h6>
-									<p class="text-sm mb-0 command">git clone https://github.com/node2faas/framework.git</p>
-	                            </div>
-	                        </div>
-							<div class="feature">
-	                            <div class="feature-inner">
-									<div class="feature-header mb-16">
-										<div class="feature-icon mr-16">
-											<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-											    <g fill="none" fill-rule="nonzero">
-											        <path d="M16 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#4353FF"/>
-											        <path d="M27 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#43F1FF"/>
-											        <path d="M27 12c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#4353FF"/>
-											        <path d="M5 23c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#43F1FF"/>
-											        <path d="M27 23c-1.859 0-3.41 1.28-3.858 3h-3.284A3.994 3.994 0 0 0 17 23.142v-3.284c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4-1.859 0-3.41 1.28-3.858 3H8.858A3.994 3.994 0 0 0 6 12.142V8.858c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4S1 2.794 1 5c0 1.858 1.28 3.41 3 3.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284A3.994 3.994 0 0 0 15 19.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284c.447 1.72 2 3 3.858 3 2.206 0 4-1.794 4-4s-1.794-4-4-4z" fill="#4353FF"/>
-											    </g>
-											</svg>
-		                                </div>
-		                                <h4 class="feature-title m-0">How to Use</h4>
-									</div>
-									<h6>Play Node2FaaS</h6>
-									<p class="text-sm mb-0 command">node2faas --target /path/to/original_app</p>
-									<p class="text-sm mb-0">When the process ends, check if output folder is filled with faasified app version.</p>
+
+										<h6>Get Subscription ID</h6>
+										<ul>
+											<li><p class="text-sm mb-0">Login into your azure account</p></li>
+											<li><p class="text-sm mb-0">Select Subscriptions in the left sidebar</p></li>
+											<li><p class="text-sm mb-0">Select whichever subscription is needed</p></li>
+											<li><p class="text-sm mb-0">Click on overview</p></li>
+											<li><p class="text-sm mb-0">Copy the Subscription ID</p></li>
+										</ul>
+
+										<h6>Get Tenant ID</h6>
+										<ul>
+											<li><p class="text-sm mb-0">Login into your azure account</p></li>
+											<li><p class="text-sm mb-0">Select azure active directory in the left sidebar</p></li>
+											<li><p class="text-sm mb-0">Click properties</p></li>
+											<li><p class="text-sm mb-0">Copy the directory ID</p></li>
+										</ul>
+
+										<h6>Get Client ID</h6>
+										<ul>
+											<li><p class="text-sm mb-0">Login into your azure account</p></li>
+											<li><p class="text-sm mb-0">Select azure active directory in the left sidebar</p></li>
+											<li><p class="text-sm mb-0">Click Enterprise applications</p></li>
+											<li><p class="text-sm mb-0">Click All applications</p></li>
+											<li><p class="text-sm mb-0">Select the application which you have created</p></li>
+											<li><p class="text-sm mb-0">Click Properties</p></li>
+											<li><p class="text-sm mb-0">Copy the Application ID</p></li>
+										</ul>
+
+										<h6>Get Client secret</h6>
+										<ul>
+											<li><p class="text-sm mb-0">Login into your azure account</p></li>
+											<li><p class="text-sm mb-0">Select azure active directory in the left sidebar</p></li>
+											<li><p class="text-sm mb-0">Click App registrations</p></li>
+											<li><p class="text-sm mb-0">Select the application which you have created</p></li>
+											<li><p class="text-sm mb-0">Click on All settings</p></li>
+											<li><p class="text-sm mb-0">Click on Keys</p></li>
+											<li><p class="text-sm mb-0">Type Key description and select the Duration</p></li>
+											<li><p class="text-sm mb-0">Click save</p></li>
+											<li><p class="text-sm mb-0">Copy and store the key value</p></li>
+										</ul>
 									
+
 	                            </div>
 	                        </div>
 						</div>
                     </div>
                 </div>
-			</section>
-			
-			<section class="features section">
-				<div class="container">
-					<div class="feature-inner">
-						<div class="feature-header mb-16">
-							<div class="feature-icon mr-16">
-								<svg width="32" height="32" viewBox="0 0 135 169" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M42.792 34.2964L134.444 63.4486L49.2639 130.255L42.792 34.2964Z" fill="#4353FF"/>
-									<line x1="50.5005" y1="168.05" x2="48.4601" y2="67.0513" stroke="#43F1FF" stroke-width="5"/>
-								</svg>	
-							</div>
-							<h4 class="feature-title m-0">Expected Result</h4>
-						</div>
-					</div>
-					<img src="img/node2faas-result.png" style="width:80%" />
-				</div>
 			</section>
         </main>
 
